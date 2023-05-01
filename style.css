@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+}
+
+:root {
+    --color-nav: rgb(0,0,0);
+    --text-color: white;
+}
+
+.nav {
+    background-color: var(--color-nav);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-opciones {
+    display: flex;
+    color: var(--text-color);
+    gap: 30px;
+    padding: 10px;
+}
+
+a {
+   color: var(--text-color);
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+li a:hover {
+    color: gray;
+}
