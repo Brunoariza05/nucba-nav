@@ -10,6 +10,9 @@
 :root {
     --color-nav: rgb(0,0,0);
     --text-color: white;
+    --a-color: gray; 
+    --color-section: rgb(28, 27, 27);
+    --color-about: rgb(22, 21, 21);
 }
 
 .nav {
@@ -34,6 +37,8 @@ img {
 
 a {
    color: var(--text-color);
+   font-family: 'Poppins', sans-serif;
+
 }
 
 li:hover {
@@ -41,5 +46,63 @@ li:hover {
 }
 
 li a:hover {
-    color: gray;
+    color: var(--a-color);
+}
+
+.hero-pizzeria {
+    background-color: var(--color-section);
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.div-us {
+    border-radius: 4%;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-us h2 {
+    color: var(--text-color);
+    padding: 0px 50px;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.div-us p {
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 20px 90px 50px 0px; 
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.img-hero {
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+    padding: 10%;
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+}
+
+.about-us p {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: var(--text-color);
+    padding: 0% 0% 3% 0%;
 }
