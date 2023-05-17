@@ -1,0 +1,94 @@
+@media (max-width:1024px) {
+    label {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 5%;
+    }
+    
+    .nav-opciones {
+        width: 95%;
+        height: calc(100vw - 99px);
+        position: absolute;
+        top: 99px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        background: rgb(28, 27, 27);
+    }
+
+    #menu-hamburgesa:checked + .nav-opciones {
+        display: flex;
+    }
+
+    li {
+        color: var(--text-color2);
+    }
+
+    .hero-pizzeria {
+        padding: 0%;
+    }
+
+    .div-us {
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+    }
+
+    .div-us h2 {
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-us p {
+        font-size: 1rem;
+        padding: 2% 0%; 
+        margin: 0%;
+
+    }
+
+    .hero-img {
+        height: 100%;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+    } 
+
+    .img-hero {
+        height: 10rem;
+        width: 10rem;
+        padding: 3% 0%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us {
+        width: 100%;
+        height: 100%;
+        padding: 3%;
+    }
+
+    .title-pedidos h2 {
+        font-size: 2rem;
+    }
+
+    .VARIEDADES {
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;  
+        align-items: center;
+    }
+
+    #contacto {
+        font-size: 2rem;
+    }
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

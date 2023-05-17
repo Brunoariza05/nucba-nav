@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300&family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
 
     <title>nucba-nav</title>
 </head>
@@ -21,13 +24,16 @@
   <header>
     <nav class="nav">
         <div class="nav-logo">
-            <img src="/img/download.jpg" id="logo" class="logo">
+            <img src="/img/pizza.logo-removebg-preview.png" id="logo" class="logo">
         </div>
+        <label for="menu-hamburgesa">
+          <img<i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-hamburgesa">
         <ul class="nav-opciones">
-            <li><a href="#MENU">MENU</a></li>
-            <li><a href="#nosotros">NOSOTROS</a></li>
-            <li><a href="#PEDIDOS">PEDIDOS</a></li>
-            <li><a href="#CONTACTO">CONTACTO</a></li>
+            <li><a href="#nosotros" id="">NOSOTROS</a></li>
+            <li><a href="#PEDIDOS" id="">PEDIDOS</a></li>
+            <li><a href="#CONTACTO" id="">CONTACTO</a></li>
         </ul>
     </nav>
   </header>
@@ -51,6 +57,32 @@
 
     </section>
     <hr>
+    <section class="PEDIDOS" id="PEDIDOS">
+      <div class="title-pedidos">
+        <h2>PEDIDOS</h2>
+      </div> 
+      <div class="VARIEDADES">
+        <div class="cards" id="card1"><img src="/img/pizza-hawaiana.jpg" id="pizza">
+          <div class="pizza1"><h3>PIZZA HAWAIANA</h3><h4>- La pizza hawaiana, originaria de Canadá, tradicionalmente contiene una base de queso fundido y tomate con jamón y piña.</h4><div class="boton-pedidos">agregar al pedido</div></div>
+        </div>
+        <div class="cards" id="card1"><img src="img/pizza-peperoni.png" id="pizza">
+          <div class="pizza2"><h3>PIZZA PEPERONI</h3><h4>- La pizza pepperoni tiene su origen en América del Norte. Se trata de una pizza con base de salsa de tomate, mozzarella y pepperoni</h4><div class="boton-pedidos">agregar al pedido</div></div>
+        </div>
+        <div class="cards" id="card2"><img src="img/pizza-pollo.png" id="pizza">
+          <div class="pizza3"><h3>PIZZA POLLO</h3><h4>- En USA, debido a la inmigración, se crearon varios estilos de pizza. Entre esos,la pizza de pollo, en vez de salsa lleva pollo.</h4><div class="boton-pedidos">agregar al pedido</div></div>
+        </div>
+        <div class="cards" id="card2"><img src="img/pizza-cuatro-quesos.png" id="pizza">
+          <div class="pizza4"><h3>PIZZA 4 QUESOS</h3><h4>- Esta pizza contiene cuatro quesos italianos, que generalmente son la mozarela, el gorgonzola, el fontina y el parmesano. </h4><div class="boton-pedidos">agregar al pedido</div></div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <footer id="CONTACTO"> 
+      <div class="contacto">
+        <div class="titulo-contacto"><h2 id="contacto">CONTACTO</h2></div>
+        <div class="mapa">
+          <img src="/img/ubicacion-pizzeria.png" id="mapa"><h5>TELEFONO - 3512743583</h5><h5>EMAIL - brunoariza2005@gmail.com</h5><h5>UBICACION - constancio vigil 2010</h5>
+    </footer>
   </main>
 </body>
 </html>
