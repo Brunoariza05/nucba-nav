@@ -67,7 +67,7 @@ li a:hover {
     background-color: var(--color-section);
     justify-content: center;
     align-items: center;
-    padding: 0px 100px;
+    padding: 100px 100px;
     display: flex; 
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -103,11 +103,9 @@ li a:hover {
 }
 
 .img-hero {
-    padding-top: 20%;
-    padding-bottom: 20%;
     height: 500px;
     width: 500px;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 .main {
